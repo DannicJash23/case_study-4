@@ -1,7 +1,7 @@
-resource "aws_s3_bucket" "shared_storage" {
-  bucket = "my-shared-s3-bucket004"
+resource "aws_s3_bucket" "shared_bkt_001" {
+  bucket = "shared_bkt_001"
   
   tags = {
-    Name = "my-shared-s3-bucket004"
+    Name = "shared_bkt_001"
   }
 }
